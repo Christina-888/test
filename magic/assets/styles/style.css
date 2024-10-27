@@ -1,0 +1,97 @@
+header {
+  display: flex;
+  width: 100%;
+  min-height: 50px;
+  background-color: rgb(107, 43, 43);
+  align-content: center;
+  position: fixed;
+}
+
+ul {
+  display: flex;
+  position: absolute;
+  width: 80%;
+  justify-content: space-around;
+  align-content: center;
+  list-style: none;
+}
+
+.point {
+  text-decoration: none;
+  font-family: Open Sans, Monolith, sans-serif;
+  justify-content: space-between;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(152, 155, 11);
+  width: 80%;
+}
+
+.root {
+  background-color: rgb(199, 172, 82);
+  margin: auto;
+  padding: 30px; 
+}
+
+.title {
+  font-family: "Ruslan Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(107, 43, 43);
+  margin-top: 50px;
+}
+
+.title:hover {
+  text-decoration: underline;
+}
+
+.subtitle {
+  font-family: "Ruslan Display", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px; 
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: space-around;
+}
+
+.artefact {
+  display: flex;
+  min-height: 50px;
+  width: 30%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.img {
+  min-height: 50px;
+  width: 100%;
+  flex-wrap: wrap;
+  outline: 3px solid black;
+}
+
+.img:hover {
+  outline: 5px solid rgb(107, 43, 43);
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  min-height: 50px;
+  background-color: rgb(107, 43, 43);
+}
+
+.quote {
+  font-family: "Ruslan Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(248, 252, 9); 
+  margin: 40px;
+}
